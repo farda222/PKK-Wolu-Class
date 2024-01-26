@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Myfontclass-Regular';
+    src: url('Myfontclass-Regular.ttf') format('truetype');
+}
+
+* {
+    font-family: 'Myfontclass-Regular', sans-serif;
+    color: #333;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10vh 5vw; /* Adjusted margin for better responsiveness */
+}
+
+body h1 {
+    margin-top: 5vh; /* Adjusted margin for better responsiveness */
+}
+
+body .judul,
+body .pendahuluan,
+body .text-pendahuluan,
+body .text,
+body .judul2,
+body .text2,
+body ol,
+body .judul3,
+body .text3 {
+    width: 90vw; /* Adjusted width for better responsiveness */
+    max-width: 800px; /* Set a maximum width for larger screens */
+    margin-top: 5vh; /* Adjusted margin for better responsiveness */
+}
+
+body .judul,
+body .pendahuluan,
+body .text-pendahuluan,
+body .text,
+body .judul2,
+body .text2,
+body ol,
+body .judul3,
+body .text3 {
+    font-size: 3.5vw; /* Adjusted font size for better responsiveness */
+}
+
+body .text-pendahuluan,
+body .text,
+body .text2,
+body .text3 {
+    font-size: 2.5vw; /* Adjusted font size for better responsiveness */
+}
+
+body .image {
+    width: 30%; /* Adjusted width for better responsiveness */
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 600px) {
+    body .judul,
+    body .pendahuluan,
+    body .text-pendahuluan,
+    body .text,
+    body .judul2,
+    body .text2,
+    body ol,
+    body .judul3,
+    body .text3 {
+        font-size: 5vh; /* Adjusted font size for smaller screens */
+    }
+
+    body .text-pendahuluan,
+    body .text,
+    body .text2,
+    body .text3 {
+        font-size: 4vh; /* Adjusted font size for smaller screens */
+    }
+}
